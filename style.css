@@ -67,33 +67,36 @@
 
     /* For mobile phones: */
     .hero-section{
-        gap: 3rem!important;
+        gap: 1.2rem!important;
         padding-bottom: 4rem!important;
+    }
+    .nav-items{
+        padding: -0!important;
     }
     .nav-items div {
         margin-top: 18px;
         font-size: 17px!important;
     }
     .hero-section-heading {
-        font-size: 20px!important;
+        font-size: 15px!important;
     }
     .hero-section-desc {
-        font-size: 13px;
+        font-size: 10px;
         width: 90%!important;
     }
     .btn-pink {
-        width: 100px!important;
+        width: 50px!important;
         height: 20px!important;
-        font-size: 13px!important;
+        font-size: 11px!important;
     }
     .faded-text {
-        font-size: 4.6em!important;
+        font-size: 3.5em!important;
     }
     .userImage {
-        padding: 1rem!important;
+        padding: 0.5rem!important;
     }
     .userImage img{
-        width: 10em!important;
+        width: 8em!important;
     }
     .container{
         width: auto;
@@ -101,23 +104,30 @@
     .navbar{
         flex-direction: column;
     }
+    .project-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .skill-container {
+        margin: 10px 0px;
         padding: 1.3rem!important;
     }
     .skill-container-right {
-        margin-top: 8rem;
+        margin-top: 5rem;
     }
     .skill-logo{
-        width: 37px!important;
+        width: 30px!important;
     }
     .skill-heading {
         font-size: 20px!important;
+        line-height: 25px!important;
     }
     .caps {
         font-size: 50px!important;
     }
     .skill-subHeading p {
-        font-size: 9px;
+        font-size: 8.5px;
     }
     .skill-subHeading{
         width: 100%!important;
@@ -137,12 +147,15 @@
         font-size: 14px!important;
         margin-top: 23px!important;
     }
+    form{
+        margin: 3rem 3rem!important;
+    }
     #submit-btn {
-        width: 200px!important;
-        font-size: 0.6rem!important;
+        width: 100px!important;
+        font-size: 0.4rem!important;
     }
     .footer-faded-text {
-        font-size: 4em!important;
+        font-size: 3em!important;
     }
     footer{
         padding: 30px!important;
