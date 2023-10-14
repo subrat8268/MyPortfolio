@@ -31,6 +31,136 @@
 
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .container{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    /* For tablets: */
+    .skill-container {
+        padding: 3rem;
+    }
+    .skill-logo{
+        width: 75px!important;
+    }
+    .skill-heading {
+        font-size: 35px!important;
+    }
+    .skill-subHeading p {
+
+        font-size: 13px;
+    }
+    .skill-fade-text {
+        font-size: 12em!important;
+    }
+    .contactus-heading {
+        font-size: 4em!important;
+    }
+    .contactus-subHeading {
+        font-size: 2rem!important;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    .hero-section{
+        gap: 3rem!important;
+        padding-bottom: 4rem!important;
+    }
+    .nav-items div {
+        margin-top: 18px;
+        font-size: 17px!important;
+    }
+    .hero-section-heading {
+        font-size: 20px!important;
+    }
+    .hero-section-desc {
+        font-size: 13px;
+        width: 90%!important;
+    }
+    .btn-pink {
+        width: 100px!important;
+        height: 20px!important;
+        font-size: 13px!important;
+    }
+    .faded-text {
+        font-size: 4.6em!important;
+    }
+    .userImage {
+        padding: 1rem!important;
+    }
+    .userImage img{
+        width: 10em!important;
+    }
+    .container{
+        width: auto;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .skill-container {
+        padding: 1.3rem!important;
+    }
+    .skill-container-right {
+        margin-top: 8rem;
+    }
+    .skill-logo{
+        width: 37px!important;
+    }
+    .skill-heading {
+        font-size: 20px!important;
+    }
+    .caps {
+        font-size: 50px!important;
+    }
+    .skill-subHeading p {
+        font-size: 9px;
+    }
+    .skill-subHeading{
+        width: 100%!important;
+    }
+    .skill-fade-text {
+        font-size: 7em!important;
+    }
+    .contactus-heading {
+        font-size: 3em!important;
+    }
+    .contactus-subHeading {
+        font-size: 1.2rem!important;
+    }
+    .formfield {
+        width: 90%!important;
+        padding: 0.2em 1.2em!important;
+        font-size: 14px!important;
+        margin-top: 23px!important;
+    }
+    #submit-btn {
+        width: 200px!important;
+        font-size: 0.6rem!important;
+    }
+    .footer-faded-text {
+        font-size: 4em!important;
+    }
+    footer{
+        padding: 30px!important;
+        height: 190px;
+    }
+    .footer-wrapper {
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+    .icon-wrapper {
+        justify-content: center;
+    }
+    .email{
+        margin-left: 0!important;
+    }
+}
+
+
 img{
     height: 60px;
 }
